@@ -1,0 +1,67 @@
+JSON
+
+{
+  "site_metadata": {
+    "title": "INNOVATION COMMERCE | Consultoría Experta en Logística y Aduanas",
+    "description": "INNOVATION COMMERCE: Consultoría líder en Comercio Exterior, Logística y Aduanas. 15 años de experiencia con la Ing. Mónica Toaza."
+  },
+  "brand": {
+    "name": "INNOVATION COMMERCE",
+    "founder_name": "Ing. Mónica Toaza",
+    "experience_years": 15
+  },
+  "navigation": [
+    {"label": "Inicio", "anchor": "#hero"},
+    {"label": "Servicios", "anchor": "#servicios"},
+    {"label": "Experiencia", "anchor": "#experiencia"},
+    {"label": "Contacto", "anchor": "#contacto"}
+  ],
+  "sections": {
+    "hero": {
+      "headline": "INNOVATION COMMERCE: Logística y Aduanas por la Ing. Mónica Toaza.",
+      "subheadline": "15 años de **Experiencia Comprobada** en Comercio Exterior, Optimizando Procesos y Reduciendo Costos.",
+      "cta_text": "Agenda una Consultoría Estratégica",
+      "cta_link": "#contacto"
+    },
+    "servicios": [
+      {
+        "name": "Consultoría Aduanera Integral",
+        "description": "Clasificación arancelaria, cumplimiento normativo y optimización de regímenes aduaneros para evitar sanciones y demoras."
+      },
+      {
+        "name": "Supply Chain Management",
+        "description": "Diseño e implementación de cadenas de suministro eficientes, enfocadas en la reducción de tiempos de tránsito y costos operativos."
+      },
+      {
+        "name": "Auditoría y Gestión de Riesgos",
+        "description": "Revisión exhaustiva de documentación y procesos de importación/exportación para asegurar la transparencia y mitigar riesgos logísticos."
+      },
+      {
+        "name": "Capacitación In-House",
+        "description": "Programas de formación especializados para su equipo en normativas de comercio exterior y actualizaciones aduaneras vigentes."
+      }
+    ],
+    "experiencia": {
+      "title": "La Autoridad Detrás de su Éxito: Ing. Mónica Toaza",
+      "subtitle": "Consultora Experta en Comercio Exterior, Logística y Aduanas",
+      "highlights": [
+        "Más de **15 años** liderando operaciones logísticas complejas.",
+        "Especialista en **Normativa Aduanera** y optimización de tributos.",
+        "Enfoque en la **Digitalización** de procesos de importación y exportación.",
+        "Diseño de estrategias que han generado un **ahorro promedio del 10%** en costos logísticos."
+      ],
+      "philosophy": "En INNOVATION COMMERCE, combinamos un profundo conocimiento técnico con una visión estratégica. Nuestra metodología se basa en la innovación, el cumplimiento riguroso y la adaptabilidad.",
+      "secondary_cta_text": "Ver Caso de Éxito y Testimonios"
+    }
+  },
+  "footer": {
+    "cta_headline": "Transforme su Comercio Exterior",
+    "cta_message": "Dé el primer paso hacia una logística más inteligente. Complete el formulario y agendaremos su primera sesión.",
+    "social_media": [
+      {"platform": "LinkedIn", "icon": "in", "url": "#"},
+      {"platform": "WhatsApp", "icon": "WA", "url": "#"},
+      {"platform": "Email", "icon": "@", "url": "#"}
+    ],
+    "copyright": "© 2025 INNOVATION COMMERCE. Todos los derechos reservados."
+  }
+}

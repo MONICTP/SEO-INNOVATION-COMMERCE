@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOEL TOASA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JOEL TOASA</h1>
+    </header>
+
+    <section>
+        <h2>Bienvenido/a a mi Página Web</h2>
+        <p>Esta es una página web simple con el título "JOEL TOASA".</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 JOEL TOASA. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

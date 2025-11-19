@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Productos - SEO Innovation Commerce</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="navbar-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">SEO Innovation Commerce</a> 
+                <ul class="nav-links">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="acerca-de-mi.html">ACERCA DE MÍ</a></li>
+                    <li><a href="mis-productos.html" class="active-link">MIS PRODUCTOS</a></li>
+                    <li><a href="formacion.html">FORMACIÓN</a></li>
+                    <li><a href="#" class="btn-login">CARRITO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="products-main-content">
+        <div class="container">
+            
+            <section class="products-hero">
+                <h1 class="products-title">Nuestras Soluciones Digitales y Formación Elite</h1>
+                <p class="products-subtitle">Impulsa tu negocio de Comercio Exterior con la innovación que necesitas.</p>
+                <hr class="products-divider">
+            </section>
+
+            <section class="products-grid">
+
+                <div class="product-card">
+                    <img src="assets/producto-ecuapass.jpg" alt="Sistema Ecuapass e Inteligencia Regulatoria" class="product-image">
+                    <div class="product-details">
+                        <h2 class="product-name">Ecuapass Total & IA Regulatoria</h2>
+                        <p class="product-description">Dominio de Ecuapass. Aprende a usar IA para **analizar y resumir boletines aduaneros**, extrayendo cláusulas de impacto inmediato para tu negocio.</p>
+                        <span class="product-price">$97 USD</span>
+                        <a href="#" class="btn-primary product-button">COMPRAR AHORA</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="assets/producto-ia.jpg" alt="Curso Inteligencia Artificial" class="product-image">
+                    <div class="product-details">
+                        <h2 class="product-name">IA & Estrategias de Venta</h2>
+                        <p class="product-description">Aprende a integrar la Inteligencia Artificial para potenciar tus ventas y procesos logísticos.</p>
+                        <span class="product-price">$199 USD</span>
+                        <a href="#" class="btn-primary product-button">COMPRAR AHORA</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="assets/producto-kit.jpg" alt="Kit de Importación" class="product-image">
+                    <div class="product-details">
+                        <h2 class="product-name">Kit de Inicio de Importación</h2>
+                        <p class="product-description">Guía paso a paso para emprendedores que inician su negocio de importación sin errores críticos.</p>
+                        <span class="product-price">$49 USD</span>
+                        <a href="#" class="btn-primary product-button">COMPRAR AHORA</a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="assets/producto-consultoria.jpg" alt="Consultoría Personalizada" class="product-image">
+                    <div class="product-details">
+                        <h2 class="product-name">Consultoría 1 a 1 (VIP)</h2>
+                        <p class="product-description">Sesión personalizada para resolver desafíos específicos de aduanas y comercio exterior.</p>
+                        <span class="product-price">SOLICITAR</span>
+                        <a href="#" class="btn-primary product-button">AGENDAR SESIÓN</a>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+</body>
+</html>

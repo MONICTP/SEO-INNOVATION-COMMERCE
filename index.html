@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Innovation Commerce - Inicio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="navbar-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">SEO Innovation Commerce</a> 
+                
+                <button class="menu-toggle" aria-label="Abrir menú" onclick="toggleMenu()">
+                    &#9776; </button>
+
+                <ul class="nav-links" id="navLinks">
+                    <button class="menu-close" aria-label="Cerrar menú" onclick="toggleMenu()">
+                        &times; </button>
+                    
+                    <li><a href="index.html" class="active-link">INICIO</a></li>
+                    <li><a href="acerca-de-mi.html">ACERCA DE MÍ</a></li>
+                    <li><a href="mis-productos.html">MIS PRODUCTOS</a></li>
+                    <li><a href="formacion.html">FORMACIÓN</a></li>
+                    <li><a href="#" class="btn-login">CARRITO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="carousel-section">
+        <div class="carousel-container">
+            
+            <div class="carousel-slide fade">
+                <img src="./assets/carrusel-slide1.jpg" alt="Innovación en Comercio Exterior">
+                <div class="carousel-caption">
+                    <h3>Potencia tu Negocio con IA y Logística Avanzada</h3>
+                    <p>Descubre nuestros cursos y soluciones digitales para el comercio internacional.</p>
+                    <a href="formacion.html" class="btn-primary">Ver Formación</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide fade">
+                <img src="./assets/carrusel-slide2.jpg" alt="Dominio de Ecuapass">
+                <div class="carousel-caption">
+                    <h3>Ecuapass Total: Control y Eficiencia Aduanera</h3>
+                    <p>Aprende las claves del sistema y optimiza tus trámites con nuestra guía experta.</p>
+                    <a href="mis-productos.html" class="btn-primary">Descubrir Ecuapass</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide fade">
+                <img src="./assets/carrusel-slide3.jpg" alt="Consultoría Personalizada">
+                <div class="carousel-caption">
+                    <h3>Consultoría 1 a 1: Soluciones a Medida para tus Desafíos</h3>
+                    <p>Recibe asesoramiento experto y lleva tu estrategia al siguiente nivel.</p>
+                    <a href="acerca-de-mi.html" class="btn-primary">Agendar Sesión</a>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <div style="text-align:center; padding: 15px 0;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    
+    <section class="hero-section hero-video-mode"> 
+        <div class="container" style="padding: 100px 0;"> 
+            <div class="hero-content" style="max-width: 100%;">
+                <h1 class="main-title" style="font-size: 40px; text-align: center; margin: 0 auto;">
+                    Comercio Exterior & Logística: <span class="highlight">Innovación Digital</span>
+                </h1>
+                <p class="subtitle" style="text-align: center; color: white; margin-top: 10px;">La plataforma líder para la innovación y el comercio exterior.</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script"></script>
+
+</body>
+</html>
